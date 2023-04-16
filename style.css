@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Quicksand:wght@500;700&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Quicksand:wght@500;700&family=Source+Sans+Pro:wght@300&family=Ubuntu:wght@300&display=swap');
+
+body {
+    background: url('https://img.freepik.com/free-vector/hand-drawn-minimal-background_23-2148997841.jpg');
+    background-repeat: no-repeat;
+    background-size:1300px;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.sidebar{
+    background-color: grey;
+    font-family:'Quicksand', sans-serif;
+    height: 100vh;
+    transition: transform 0.2s ease-in;
+}
+.sidebar nav{
+padding: 60px;
+}
+.sidebar nav li{
+    list-style:none;
+    font-size:20px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+.main{
+   /*-- background-color:violet;--*/
+    width:90vw;
+}
+.container{
+    display:flex;
+
+}
+.infoContainer{
+   /*background-color:rgb(202,9,128);*/
+    height:50vh;
+    width:80vw;
+    margin:144px auto;
+    display:flex;
+    justify-content: space-around;
+}
+.devInfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+}
+.hello{
+    font-size: 3em;
+    font-family: 'Ubuntu', sans-serif;
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.About{
+    font-size: 2.5em;
+}
+.button{
+      margin-top: 2.3em;
+      font-size:16px;
+}
+btn {
+    padding: 9px 8px;
+    border-radius: 15px;
+    color:black;
+    background-color:violet ;
+    font-weight:bold;
+    font-size: 21px;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 7px;
+    padding:7px 8px;
+    margin: 5px 0;
+}
+.btn:hover{
+    color:black;
+    background-color:violet;
+}
+.devpic img{
+    height: 50vh;
+}
+.contactform{
+    padding:0 34px;
+    font-family:'Ubuntu', sans-serif;
+    margin:0 88px;
+}
+
+.contactform h1{
+    font-family:'Quicksand', sans-serif;
+    text-align: center;
+}
+.contactform form div{
+    padding:10px 0;
+    display:flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    /*
+    width:26vw;*/
+    border-radius:5px;
+    margin:6px 0 0 0;
+    padding:3px;
+}
+.contactform form {
+    margin:0 30px;
+}
+#emailHelp{
+    font-size:8px;
+    color:lightpink;
+    margin:0 5px;
+}
+#form-check {
+    flex-direction: row;
+}
+#form-check input{
+width:24px;
+margin:3px 0;
+}
+.blogItem{
+    margin: 20px;
+    font-family:'Ubuntu', sans-serif;
+}
+.blogContainer{
+    margin:0 88px;
+}
+
+ h1{
+    font-family:'Ubuntu', sans-serif;
+    margin:12px;
+}
+
+ p{
+    font-family:'Ubuntu', sans-serif;
+}
+.intro{
+    margin: 10px  88px;
+}
+.intro h2{
+    font-family:'Ubuntu', sans-serif;
+    margin:12px;
+    margin-left: 100px;
+}
+.intro p{
+    font-family:'Quicksand', sans-serif;
+    margin:12px;
+    margin-left: 100px;
+}
+.skillcontainer{
+    padding:12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 900px;
+    margin-left: 100px;
+}
+.skill{
+    width:250px;
+    height:7px;
+    background-color:lightgray;
+    border:1px solid black;
+}
+.hundered{
+    width:265px;
+    background-color:rgb(50, 179, 222);
+}
+.fifty{
+    width:125px;
+    background-color:lightgreen;
+}
+.t5{
+    width:75px;
+    background-color:lightslategray;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.hamburger{
+    position:absolute;
+    cursor:pointer;
+    top:10px;
+    left:10px;
+}
+
+.ham{
+    margin-left: 155px;
+    margin-top:10px;
+}
+.button{
+    font-size: 6px;
+}
+.devInfo{
+    font-size: 10px;
+}
+.devPic{
+    display:none;
+}
+.intro, .blogContainer, .contactform{
+    margin:50px 8px;
+}
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: grey;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 6px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 15px;
+    margin-right :1300px;
+}
+
+.btn:hover {
+    background-color: white;
+    color:grey;
+
+}
